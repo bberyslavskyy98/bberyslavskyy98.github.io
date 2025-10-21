@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NeoBery - IT консалтинг, разработка и поддержка</title>
+  <meta name="description" content="NeoBery — IT консалтинг и разработка сайтов, CRM, API. Поддержка и сопровождение бизнеса в Грузии.">
+  <meta name="keywords" content="IT консалтинг, разработка сайтов, CRM, поддержка IT, NeoBery, Грузия, IT агентство">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="NeoBery — IT консалтинг и разработка">
+  <meta property="og:description" content="NeoBery помогает компаниям выстроить IT-инфраструктуру, создать сайты и CRM, а также обеспечить поддержку и сопровождение.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://neobery.online/">
+  <meta property="og:image" content="https://neobery.online/img/server.jpg">
+
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles/home.css">
+
+  <!-- Structured Data JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "NeoBery",
+    "url": "https://neobery.online/",
+    "logo": "https://neobery.online/img/logo.svg",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+995591060164",
+      "contactType": "customer service"
+    },
+    "sameAs": [
+      "https://instagram.com/beryslavskyyit"
+    ]
+  }
+  </script>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5BNNW2GPD4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5BNNW2GPD4');
+</script>
+</head>
+<body>
+
+  <header>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+      <div class="container">
+        <!-- Логотип -->
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="/img/logo.svg" alt="NeoBery" style="height:50px; width:auto; margin-right:10px;">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item"><a class="nav-link" href="services.html">Услуги</a></li>
+            <li class="nav-item"><a class="nav-link" href="#reviews">Отзывы</a></li>
+            <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+            <li class="nav-item ms-lg-3">
+              <a class="nav-link text-success fw-bold" href="tel:+995591060164">+995 591 060 164</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section id="hero" class="hero py-5">
+      <div class="container text-center text-white">
+        <h1 class="display-4 fw-bold mb-3">Мы не спасаем мир</h1>
+        <p class="lead mb-4">Мы просто чиним его код. NeoBery — IT консалтинг и разработка для вашего бизнеса: сайты, CRM, API, боты и надёжная поддержка IT-систем.</p>
+        <a href="#services" class="btn btn-main btn-lg mt-3">Наши услуги</a>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services py-5">
+      <div class="container">
+        <h2 class="fw-bold mb-5 text-center">Наши услуги</h2>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="service-card p-4 border rounded shadow-sm">
+              <h3 class="h5 fw-bold mb-2">IT-консалтинг</h3>
+              <p>NeoBery помогает компаниям в Грузии построить эффективную IT-инфраструктуру, внедрить CRM и оптимизировать внутренние процессы для роста бизнеса.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-card p-4 border rounded shadow-sm">
+              <h3 class="h5 fw-bold mb-2">Разработка</h3>
+              <p>Создаем сайты, CRM и API, обеспечивая надёжность, масштабируемость и удобство для пользователей. Быстро и структурно без "оно работает у меня".</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service-card p-4 border rounded shadow-sm">
+              <h3 class="h5 fw-bold mb-2">Поддержка</h3>
+              <p>Полная техническая поддержка ваших IT-систем, чтобы бизнес работал без перебоев и с максимальной безопасностью.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Reviews (Placeholder) -->
+    <section id="reviews" class="reviews py-5">
+      <div class="container text-center">
+        <h2 class="fw-bold mb-5">Отзывы наших клиентов</h2>
+        <p>Скоро здесь появятся реальные отзывы наших клиентов. NeoBery ценит обратную связь и качество сервиса.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contacts" class="py-4 bg-dark text-white">
+    <div class="container text-center">
+      <p>© 2025 NeoBery — Все права защищены</p>
+      <p>Email: <a href="mailto:bogdan.beryslavskyy@protonmail.com" class="text-success">bogdan.beryslavskyy@protonmail.com</a></p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="scripts/home.js"></script>
+</body>
+</html>
